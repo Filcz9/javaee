@@ -1,1 +1,1 @@
-Filip Czyż
+Stworzenie strony "about","date i "menu"
