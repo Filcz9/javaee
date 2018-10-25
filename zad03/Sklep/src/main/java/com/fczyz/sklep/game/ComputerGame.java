@@ -4,23 +4,25 @@ import java.util.Date;
 
 public class ComputerGame {
 
-	private Date release_date;
-	private Double price;
-	private Boolean available;
-	private String title;
+	public Date release_date;
+	public Double price;
+	public Boolean available;
+	public String title;
 	private long rating;
-	
-	public ComputerGame(String string, Double double1, Date date, Boolean bool, long l)
-	{
+
+	public ComputerGame() { super(); }
+	//public ComputerGame(String string, Double double1, Date date, Boolean bool)
+	//{
+	//	super();
+	//}
+	public ComputerGame(String title, Double price, Date release_date, Boolean available ) {
 		super();
-	}
-	public ComputerGame(Date release_date, Double price, Boolean available, String title, long rating) {
-		super();
-		this.release_date = release_date;
-		this.price = price;
-		this.available = available;
 		this.title = title;
-		this.rating = rating;
+		this.price = price;
+		this.release_date = release_date;
+		this.available = available;
+
+		//this.rating = rating;
 	}
 	public Date getReleaseDate()
 	{
