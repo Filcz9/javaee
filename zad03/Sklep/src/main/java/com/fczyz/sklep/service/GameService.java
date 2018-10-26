@@ -9,6 +9,7 @@ import com.fczyz.sklep.game.*;
 public class GameService {
 
 	public static List<ComputerGame> db = new ArrayList<ComputerGame>();
+	
 
 	public void add(ComputerGame ComputerGame){
 		ComputerGame newComputerGame = new ComputerGame(ComputerGame.getTitle(), ComputerGame.getPrice(), ComputerGame.getReleaseDate(), ComputerGame.getAvailable());
@@ -21,7 +22,7 @@ public class GameService {
 		while(iterator.hasNext())
 		{
 			ComputerGame game = iterator.next();
-			if(game.getTitle() == name)
+			if(game.getTitle().equals(name))
 			{
 				iterator.remove();
 			}
