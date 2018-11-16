@@ -15,7 +15,8 @@
 <jsp:useBean id="survey" class="com.fczyz.sklep.game.Survey" scope="session" />
 
 <form action="addSurvey.jsp">
-
+<h2>Opinia</h2>
+<p>(Daty wpisywac w formacie rok-miesiac-dzien np: 2010-11-12)</p>
 	Od: <input type='text' name='from' value='${survey.from}'/></br>
 	Do: <input type='text' name='to' value='${survey.to}'/></br>
 	Czestotliwosc:</br>codziennie:<input type='radio' name='freq' value="1" checked/></br>

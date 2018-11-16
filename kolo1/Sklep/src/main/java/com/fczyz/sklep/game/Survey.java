@@ -50,8 +50,8 @@ public class Survey {
 	}
 	public String showAll() {
 
-		return "Uzywany od: " + this.from.getDate()+"."+ this.from.getMonth()+"."+ (this.from.getYear()+1900)+"</br>"+
-				"do: " + this.to.getDate()+"."+ this.to.getMonth()+"."+ (this.to.getYear()+1900)+"</br>"+
+		return "Uzywany od: " + this.from.getDate()+"."+ (this.from.getMonth()+1)+"."+ (this.from.getYear()+1900)+"</br>"+
+				"do: " + this.to.getDate()+"."+ (this.to.getMonth()+1)+"."+ (this.to.getYear()+1900)+"</br>"+
 				"</br>"+"Czestotliwosc: " + this.freq + "</br>";
 
 		

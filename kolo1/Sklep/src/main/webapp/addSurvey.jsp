@@ -24,7 +24,9 @@ try {
 }
 if(request.getParameter("freq").equals("1"))
 	survey.setFreq("Codziennie");
-else survey.setFreq("Raz w tygodniu");
+if(request.getParameter("freq").equals("2"))
+	survey.setFreq("Raz w tygodniu");
+else survey.setFreq("Rzadziej");
 storage.add(survey);
 %>
 <body>
@@ -33,6 +35,6 @@ Dodano:
 out.println(survey.showAll());
 %>
 </body>
-<a href='getComputerGameData.jsp'>Dodaj kolejny</a></br>
+<a href='survey.jsp'>Dodaj kolejny</a></br>
 <a href='index.jsp'>Menu</a></br>
 </html>

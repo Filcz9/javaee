@@ -13,7 +13,7 @@ if(request.getParameter("purchase")!=null){
 ComputerGame game = storage.findByTitle((request.getParameter("purchase")).toString());
 if(game!=null){
 storagePurchase.add(game);
-out.println("<h3>Dodano:</h3>"+game.printAll());
+out.println("<h3>Dodano:</h3>"+game.showAll());
 }
 else
 	out.print("Nie ma takiej gry");
@@ -30,9 +30,9 @@ for(ComputerGame g : storagePurchase.getAllComputerGames())
 	out.println("_________________________________________________");
 }%>
 
-Potwierdz przetwarzanie danych osobowych<input type="checkbox" name="rodo" required <%if(rodo.isRodo()) out.print("checked"); %>/></br>
-Potwierdz regulamin sklepu<input type="checkbox" name="rodo2" required <%if(rodo.isRodo2()) out.print("checked"); %>/></br>
-Newsletter<input type="checkbox" name="newsletter" <%if(rodo.isNewsletter()) out.print("checked"); %>/></br>
+Potwierdz przetwarzanie danych osobowych<input type="checkbox" name="rodo" required <%if(rodo.getRodo()) out.print("checked"); %>/></br>
+Potwierdz regulamin sklepu<input type="checkbox" name="rodo2" required <%if(rodo.getLicense()) out.print("checked"); %>/></br>
+Newsletter<input type="checkbox" name="newsletter" <%if(rodo.getNewsletter()) out.print("checked"); %>/></br>
 </form>
 <a href='index.jsp'>Menu</a></br>
 </body>

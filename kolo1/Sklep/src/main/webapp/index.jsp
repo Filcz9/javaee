@@ -25,6 +25,8 @@ if(!rodo.getRodo() && !rodo.getLicense())
 <body>
 <h1>Sklep z Grami</h1>
 <a href='showAllComputerGames.jsp'>Sklep</a>
+<a href='allSurveys.jsp'>Wszystkie opinie</a>
+<a href='survey.jsp'>Dodaj opinie</a>
 <a href='getComputerGameData.jsp'>Dodaj Gre</a>
 </body>
 </html>
