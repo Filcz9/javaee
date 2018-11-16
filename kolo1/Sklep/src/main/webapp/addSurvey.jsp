@@ -22,8 +22,7 @@ try {
 	survey.setTo(df.parse(request.getParameter("to")));
 } catch (ParseException e) {
 }
-if(request.getParameter("freq").equals("1"))
-	survey.setFreq("Codziennie");
+
 if(request.getParameter("freq").equals("2"))
 	survey.setFreq("Raz w tygodniu");
 else survey.setFreq("Rzadziej");

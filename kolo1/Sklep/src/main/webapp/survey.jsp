@@ -19,7 +19,7 @@
 <p>(Daty wpisywac w formacie rok-miesiac-dzien np: 2010-11-12)</p>
 	Od: <input type='text' name='from' value='${survey.from}'/></br>
 	Do: <input type='text' name='to' value='${survey.to}'/></br>
-	Czestotliwosc:</br>codziennie:<input type='radio' name='freq' value="1" checked/></br>
+	Czestotliwosc:</br>Codziennie:<input type='radio' name='freq' value="1" checked/></br>
 	Raz w tygodniu: <input type='radio' name='freq' value="2" /></br>
 	Rzadziej: <input type='radio' name='freq' value="3" /></br>
 	Uwagi: <select name='notice'>
