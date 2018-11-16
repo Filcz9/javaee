@@ -7,6 +7,7 @@ public class Survey {
 	 Date from;
 	 Date to;
 	 String freq;
+	 boolean notice;
 
 	private long rating;
 
@@ -15,11 +16,12 @@ public class Survey {
 	//{
 	//	super();
 	//}
-	public Survey(Date from, Date to, String freq) {
+	public Survey(Date from, Date to, String freq, boolean notice) {
 		super();
 		this.from = from;
 		this.to = to;
 		this.freq = freq;
+		this.notice = notice;
 		
 
 		//this.rating = rating;
@@ -36,6 +38,14 @@ public class Survey {
 	{
 		return to;
 	}
+	public boolean getNotice()
+	{
+		return notice;
+	}
+	public void setNotice(boolean notice)
+	{
+		this.notice = notice;
+	}
 	public void setTo(Date to)
 	{
 		this.to = to;
@@ -49,10 +59,14 @@ public class Survey {
 		this.freq = freq;
 	}
 	public String showAll() {
-
+		String uwaga;
+		if(this.notice)
+			uwaga="Sprzet nie spelnia oczekiwan";
+			else uwaga="Sprzet spelnia oczekiwania";
 		return "Uzywany od: " + this.from.getDate()+"."+ (this.from.getMonth()+1)+"."+ (this.from.getYear()+1900)+"</br>"+
 				"do: " + this.to.getDate()+"."+ (this.to.getMonth()+1)+"."+ (this.to.getYear()+1900)+"</br>"+
-				"</br>"+"Czestotliwosc: " + this.freq + "</br>";
+				"</br>"+"Czestotliwosc: " + this.freq + "</br>"+
+				"</br>"+"Uwagi: " + uwaga + "</br>";
 
 		
 		

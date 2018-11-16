@@ -27,6 +27,14 @@ if(request.getParameter("freq").equals("1"))
 if(request.getParameter("freq").equals("2"))
 	survey.setFreq("Raz w tygodniu");
 else survey.setFreq("Rzadziej");
+
+
+%>
+<%
+if(request.getParameter("notice").equals("true"))
+	survey.setNotice(true);
+if(request.getParameter("notice").equals("false"))
+	survey.setNotice(false);
 storage.add(survey);
 %>
 <body>

@@ -22,6 +22,10 @@
 	Czestotliwosc:</br>codziennie:<input type='radio' name='freq' value="1" checked/></br>
 	Raz w tygodniu: <input type='radio' name='freq' value="2" /></br>
 	Rzadziej: <input type='radio' name='freq' value="3" /></br>
+	Uwagi: <select name='notice'>
+				<option value='true'>Sprzet nie spelnia oczekiwan</option>
+				<option value='false'>Sprzet spelnia oczekiwania</option>
+				</select><br />
 	<input type='submit' value='Dodaj'/></form></br>
 <a href='index.jsp'>Menu</a></br>
   
