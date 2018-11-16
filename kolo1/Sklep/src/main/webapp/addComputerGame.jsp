@@ -28,7 +28,7 @@ storage.add(computergame);
 <body>
 Dodano:
 <%
-out.println(computergame.printAll());
+out.println(computergame.showAll());
 %>
 </body>
 <a href='getComputerGameData.jsp'>Dodaj kolejny</a></br>

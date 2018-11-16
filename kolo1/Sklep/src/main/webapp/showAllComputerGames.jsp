@@ -13,7 +13,7 @@
 <form action="purchase.jsp">
 <% for(ComputerGame game : storage.getAllComputerGames())
 	{
-		out.println(game.printAll()+"<button type='submit' name='purchase' value='"+game.getTitle()+"'>Dodaj do koszyka</button>");
+		out.println(game.showAll()+"<button type='submit' name='purchase' value='"+game.getTitle()+"'>Dodaj do koszyka</button>");
 	}%>
 </form>
 <a href='index.jsp'>Menu</a></br>

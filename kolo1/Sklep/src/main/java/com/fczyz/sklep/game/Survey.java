@@ -48,27 +48,14 @@ public class Survey {
 	{
 		this.freq = freq;
 	}
-	/*
-	public long getRating()
-	{
-		return rating;
-	}
-	public void setRating(long rating)
-	{
-		this.rating = rating;
-	}
 	public String showAll() {
-		String state;
-		if(this.available)
-			state="dostepny";
-			else state="niedostepny";
-		return "</br>"+"Title: " + this.title + "</br>"+
-				"Price: " + this.price + "</br>"+
-				
-				"Status: " + state + "</br>"+
-				"Data wydania: " + this.releaseDate.getDate()+"."+ this.releaseDate.getMonth()+"."+ (this.releaseDate.getYear()+1900)+"</br>";
+
+		return "Uzywany od: " + this.from.getDate()+"."+ this.from.getMonth()+"."+ (this.from.getYear()+1900)+"</br>"+
+				"do: " + this.to.getDate()+"."+ this.to.getMonth()+"."+ (this.to.getYear()+1900)+"</br>"+
+				"</br>"+"Czestotliwosc: " + this.freq + "</br>";
+
 		
 		
 }
-*/
+
 }

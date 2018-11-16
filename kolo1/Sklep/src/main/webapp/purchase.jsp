@@ -26,7 +26,7 @@ else
 <%
 for(ComputerGame g : storagePurchase.getAllComputerGames())
 {
-	out.println(g.printAll());
+	out.println(g.showAll());
 	out.println("_________________________________________________");
 }%>
 

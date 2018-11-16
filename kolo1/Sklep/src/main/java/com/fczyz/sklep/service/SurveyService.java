@@ -7,14 +7,14 @@ import com.fczyz.sklep.game.*;
 
 public class SurveyService {
 
-    public static List<ComputerGame> purchase = new ArrayList<ComputerGame>();
+    public static List<Survey> db = new ArrayList<Survey>();
 
-    public void add(ComputerGame ComputerGame){
-        ComputerGame newComputerGame = new ComputerGame(ComputerGame.getTitle(), ComputerGame.getPrice(), ComputerGame.getReleaseDate(), ComputerGame.getAvailable());
-        purchase.add(newComputerGame);
+    public void add(Survey survey){
+    	Survey newsurvey = new Survey(survey.getFrom(), survey.getTo(), survey.getFreq());
+    	db.add(newsurvey);
     }
 
-    public List<ComputerGame> getAllComputerGames(){
-        return purchase;
+    public List<Survey> getAllSurveys(){
+        return db;
     }
 }
