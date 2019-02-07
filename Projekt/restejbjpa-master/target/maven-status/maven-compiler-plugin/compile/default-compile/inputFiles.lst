@@ -1,0 +1,13 @@
+/home/filcz/restejbjpa-master/src/main/java/com/example/restejbjpa/domain/Description.java
+/home/filcz/restejbjpa-master/src/main/java/com/example/restejbjpa/service/DescriptionManager.java
+/home/filcz/restejbjpa-master/src/main/java/com/example/restejbjpa/domain/Genre.java
+/home/filcz/restejbjpa-master/src/main/java/com/example/restejbjpa/domain/Developer.java
+/home/filcz/restejbjpa-master/src/main/java/com/example/restejbjpa/rest/GenreRestService.java
+/home/filcz/restejbjpa-master/src/main/java/com/example/restejbjpa/rest/DescriptionRestService.java
+/home/filcz/restejbjpa-master/src/main/java/com/example/restejbjpa/service/GenreManager.java
+/home/filcz/restejbjpa-master/src/main/java/com/example/restejbjpa/service/ComputerGameManager.java
+/home/filcz/restejbjpa-master/src/main/java/com/example/restejbjpa/domain/ComputerGame.java
+/home/filcz/restejbjpa-master/src/main/java/com/example/restejbjpa/config/ApplicationConfig.java
+/home/filcz/restejbjpa-master/src/main/java/com/example/restejbjpa/rest/ComputerGameRestService.java
+/home/filcz/restejbjpa-master/src/main/java/com/example/restejbjpa/rest/DeveloperRestService.java
+/home/filcz/restejbjpa-master/src/main/java/com/example/restejbjpa/service/DeveloperManager.java

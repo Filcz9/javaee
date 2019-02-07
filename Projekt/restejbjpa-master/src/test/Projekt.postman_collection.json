@@ -1,0 +1,1449 @@
+{
+	"info": {
+		"_postman_id": "fb251e4e-8cef-4bfe-bd8b-3e2e939f6548",
+		"name": "Projekt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Dodaj gatunek 1",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"rpg\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/genre",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"genre"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj Gatunek 2",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"horror\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/genre",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"genre"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj gatunek 3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"sandbox\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/genre",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"genre"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj Developera 1",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"Rockstar\",\n\"founder\":\"Adam Kozak\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/developer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"developer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj Developera 2",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"Bioware\",\n\"founder\":\"Jan Kowalski\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/developer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"developer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj Developera 3",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"Piranha\",\n\"founder\":\"Anna Nowak\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/developer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"developer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj opis 1",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"desc\":\"Gra sandboksowa na dzikim zachodzie\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/description",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"description"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj opis 2",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"desc\":\"Gra rpg\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/description",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"description"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj opis 3",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"desc\":\"Gra Horror\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/description",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"description"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj gre 1",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"title\":\"rdr2\",\n\"price\":19.99,\n\"multiplayer\": \"true\",\n\"yor\": \"2012-02-01\",\n\"developer\":{\"id\":1},\n\"description\":{\"id\":1},\n\"genres\":[]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/computergame/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"computergame",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj gre 2",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"title\":\"gothic\",\n\"price\":19.99,\n\"multiplayer\": \"false\",\n\"yor\": \"1999-02-01\",\n\"developer\":{\"id\":3},\n\"description\":{\"id\":2},\n\"genres\":[{\"id\":1}]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/computergame/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"computergame",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj gre 3",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"title\":\"Alien\",\n\"price\":19.99,\n\"multiplayer\": \"false\",\n\"yor\": \"2001-02-01\",\n\"developer\":{\"id\":2},\n\"description\":{\"id\":3},\n\"genres\":[{\"id\":2}]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/computergame/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"computergame",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj gre 4",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"title\":\"Gta\",\n\"price\":19.99,\n\"multiplayer\": \"True\",\n\"yor\": \"2015-02-01\",\n\"developer\":{\"id\":1},\n\"description\":{\"id\":1},\n\"genres\":[{\"id\":3}]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/computergame/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"computergame",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update gry",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"title\":\"rdr\",\n\"price\":19.99,\n\"multiplayer\": \"true\",\n\"yor\": \"2012-02-01\",\n\"developer\":{\"id\":1},\n\"description\":{\"id\":1},\n\"genres\":[{\"id\":1},{\"id\":2}]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/computergame/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"computergame",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Developera",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"Rockstar\",\n\"founder\":\"Adam Kozako\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/developer/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"developer",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Opisu",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"desc\":\"Gra sandboksowa na dzikim zachodzie update\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/description/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"description",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update gatunku",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"action rpg\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/genre/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"genre",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Wszyscy Developerzy",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/developer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"developer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Wszystkie gry",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"title\":\"Gta V\",\n\"price\":19.99,\n\"multiplayer\": \"true\",\n\"yor\":\"2015\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/computergame/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"computergame",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Wszystkie gatunki",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/genre",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"genre"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Znajdź gry rpg",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"title\":\"Gta V\",\n\"price\":19.99,\n\"multiplayer\": \"true\",\n\"yor\":\"2015\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/computergame/genre/rpg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"computergame",
+						"genre",
+						"rpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Znajdź gry horror",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6ba048da-2626-422c-ae10-05f55414b20d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d6cff36-db77-4ed2-8237-86e78c16576f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"title\":\"Gta V\",\n\"price\":19.99,\n\"multiplayer\": \"true\",\n\"yor\":\"2015\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/computergame/genre/horror",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"computergame",
+						"genre",
+						"horror"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Znajdź gry młodsze od",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/computergame/newerThan/2010-01-01",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"computergame",
+						"newerThan",
+						"2010-01-01"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gry z Multiplayer'em",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usuń gatunek 1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/genre/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"genre",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usuń wszystkie gatunki",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/genre",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"genre"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usuń developera 1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/developer/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"developer",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usuń wszystkich developerów",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/developer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"developer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usuń gre 1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/computergame/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"computergame",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usuń wszystkie gry",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/computergame",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"computergame"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usuń Opis1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/description/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"description",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usuń wszystkie opisy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/description",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"description"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

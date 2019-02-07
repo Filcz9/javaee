@@ -1,0 +1,13 @@
+com/example/restejbjpa/domain/Developer.class
+com/example/restejbjpa/rest/DescriptionRestService.class
+com/example/restejbjpa/config/ApplicationConfig.class
+com/example/restejbjpa/domain/Description.class
+com/example/restejbjpa/service/ComputerGameManager.class
+com/example/restejbjpa/rest/GenreRestService.class
+com/example/restejbjpa/rest/DeveloperRestService.class
+com/example/restejbjpa/domain/Genre.class
+com/example/restejbjpa/service/GenreManager.class
+com/example/restejbjpa/service/DescriptionManager.class
+com/example/restejbjpa/domain/ComputerGame.class
+com/example/restejbjpa/rest/ComputerGameRestService.class
+com/example/restejbjpa/service/DeveloperManager.class
